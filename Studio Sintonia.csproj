@@ -7,4 +7,16 @@
     <RootNamespace>Studio_Sintonia</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Usuário\Controllers\" />
+    <Folder Include="Areas\Usuário\Data\" />
+    <Folder Include="Areas\Usuário\Models\" />
+    <Folder Include="Areas\Usuário\Views\" />
+  </ItemGroup>
+
 </Project>
